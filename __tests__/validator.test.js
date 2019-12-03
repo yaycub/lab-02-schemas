@@ -56,5 +56,4 @@ describe('Validator Module', () => {
     expect(() => fieldNotReqWrongType.validateKey(dog)).toThrowError('Cannot cast >>spot<< to Number');
     expect(fieldNotReqCorrectType.validateKey(dog)).toEqual('spot');
   });
-})
-;
+});
