@@ -1,0 +1,28 @@
+{
+  "name": "lab-02-schemas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest --verbose --coverage",
+    "test:watch": "npm run test -- --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaycub/lab-02-schemas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaycub/lab-02-schemas/issues"
+  },
+  "homepage": "https://github.com/yaycub/lab-02-schemas#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
