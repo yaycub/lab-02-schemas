@@ -23,6 +23,7 @@
   "homepage": "https://github.com/yaycub/lab-02-schemas#readme",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "lint": "^0.7.0"
   }
 }
