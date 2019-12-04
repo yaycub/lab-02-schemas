@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "jest --verbose --coverage",
-    "test:watch": "npm run test -- --watchAll"
+    "test:watch": "npm run test -- --watch",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -21,9 +22,7 @@
     "url": "https://github.com/yaycub/lab-02-schemas/issues"
   },
   "homepage": "https://github.com/yaycub/lab-02-schemas#readme",
-  "dependencies": {},
   "devDependencies": {
-    "jest": "^24.9.0",
-    "lint": "^0.7.0"
+    "jest": "^24.9.0"
   }
 }
